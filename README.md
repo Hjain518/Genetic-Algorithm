@@ -1,9 +1,9 @@
 # Genetic-Algorithm Question
 
-The question is given a set of students s1,s2,......sn,,divide them into 3 groups such that the diversity of the group is minimized?
+#### The question is given a set of students s1,s2,......sn,,divide them into 3 groups such that the diversity of the group is minimized?
 
 
-Variables in the code are as follows::
+### Variables in the code are as follows::
 
 noOfStu : number of students
 crossmut[50] : value of ith student present in group no. (values : 0,1,2 (3-groups))
@@ -12,7 +12,7 @@ solution[50][noOfstu] : contain 50 solution for problem
 sol[50][noOfstu] : contain 50 solution for problem(updated)
 solId[25][2] : best 25 solution id
 
-Pseudo Code :
+## Pseudo Code :
 main :
 1.)initiate crossmut[i]=i;
 2.)giving marks to students
@@ -26,7 +26,7 @@ main :
 5.)print answer
 
 
-describing  steps:
+### steps:
 
 3.)solution_fill :
 	allocating groups to the student randomly.
